@@ -3950,3 +3950,10 @@ li.current {
   text-decoration: none;}
 
 /* .emoji{vertical-align: middle;} */
+
+/* to center project image */
+.center-img {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}

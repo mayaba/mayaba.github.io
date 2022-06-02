@@ -1931,64 +1931,81 @@ header .logo a {
  * ------------------------------------------------------------------- 
  */
 @media only screen and (max-width: 1024px) {
+  #certs .timeline-header,
   #resume .timeline-header {
     padding-right: 50px;
   }
+  #certs .timeline-header h3,
   #resume .timeline-header h3 {
     font-size: 1.8rem;
   }
+  #certs .timeline-header p,
   #resume .timeline-header p {
     font-size: 1.4rem;
   }
+  #certs .timeline-content,
   #resume .timeline-content {
     padding-left: 50px;
   }
 }
 @media only screen and (max-width: 768px) {
+  #certs .timeline-wrap::before,
   #resume .timeline-wrap::before {
     left: 2.4rem;
   }
+  #certs .timeline-ico,
   #resume .timeline-ico {
     left: 2.4rem;
   }
+  #certs .timeline-header,
   #resume .timeline-header {
     float: none;
     width: auto;
     padding-right: 15px;
     text-align: left;
   }
+  #certs .timeline-header h3,
   #resume .timeline-header h3 {
     font-size: 2rem;
   }
+  #certs .timeline-header p,
   #resume .timeline-header p {
     font-size: 1.5rem;
     margin-bottom: 1.5rem;
   }
+  #certs .timeline-content,
   #resume .timeline-content {
     margin: 0;
   }
+  #certs .timeline-content h4,
   #resume .timeline-content h4 {
     padding-bottom: 0;
     padding-top: 2.1rem;
     margin-bottom: 0.6rem;
     font-size: 1.7rem;
   }
+  #certs .timeline-content h4::after,
   #resume .timeline-content h4::after {
     bottom: auto;
     top: 0;
   }
+  #certs .timeline-header,
   #resume .timeline-header,
+  #certs .timeline-content,
   #resume .timeline-content {
     padding-left: 7rem;
   }
 }
 @media only screen and (max-width: 480px) {
+  #certs .resume-header h2,
   #resume .resume-header h2 {
     font-size: 2.2rem;
   }
+  #certs .timeline-wrap::before,
   #resume .timeline-wrap::before {
     left: 1.8rem;
   }
+  #certs .timeline-ico,
   #resume .timeline-ico {
     height: 3.6rem;
     width: 3.6rem;
@@ -1997,7 +2014,9 @@ header .logo a {
     margin-left: -1.8rem;
     font-size: 1.5rem;
   }
+  #certs .timeline-header,
   #resume .timeline-header,
+  #certs .timeline-content,
   #resume .timeline-content {
     padding-left: 5.5rem;
   }

@@ -1,1060 +1,871 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js oldie ie8" lang="en"> <![endif]-->
+<!--[if IE 9]><html class="no-js oldie ie9" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<html class="no-js" lang="en">
+  <!--<![endif]-->
+  <head>
+    <!--- basic page needs
+   ================================================== -->
+    <meta charset="utf-8" />
+    <title>Mayaba CV</title>
+    <meta name="description" content="" />
+    <meta name="author" content="" />
 
-    <head>
-        <title>Rahim. CV/Resume</title>
-        <!-- Required meta tags -->
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="description" property="og:description" content="Abderrahim Mayaba Personal CV / Resume" />
-        <meta name="author" content="Abderrahim Mayaba">
-        <meta name="title" property="og:title" content="Abderrahim Mayaba Personal CV / Resume">
-        <meta property="og:type" content="Personal Portfolio / CV / Resume">
-        <meta name="keywords"
-            content="creative, cv, designer,  online cv, online resume, powerful portfolio, professional, professional resume, resume, vcard, Rahim, Abderrahim, Mayaba" />
-        <meta name="developer" content="Abderrahim Mayaba">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <link rel="shortcut icon" sizes="64x64" href="assets/images/icons8-code-fork-64.png">
-        <meta name="image" property="og:image" content="assets/images/icons8-code-fork-64.png" property="og:image:width"
-            content="200" property="og:image:height" content="200">
+    <!-- mobile specific metas
+   ================================================== -->
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1"
+    />
 
+    <!-- CSS
+   ================================================== -->
+    <link rel="stylesheet" href="css/base.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/vendor.css" />
 
+    <!-- script
+   ================================================== -->
+    <script src="js/modernizr.js"></script>
+    <script src="js/pace.min.js"></script>
 
+    <!-- favicons
+	================================================== -->
+    <link rel="icon" type="image/ico" href="favicon.ico" />
+  </head>
 
-        <!-- Google Font-->
-        <link href="http://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-        <!-- Font Awesome -->
-        <link rel="stylesheet" href="assets/icons/font-awesome-4.7.0/css/font-awesome.min.css">
-        <!-- Bootstrap CSS -->
-        <link rel="stylesheet" href="assets/plugins/css/bootstrap.min.css">
-        <!-- Animate CSS-->
-        <link rel="stylesheet" href="assets/plugins/css/animate.css">
-        <!-- Owl Carousel CSS-->
-        <link rel="stylesheet" href="assets/plugins/css/owl.css">
-        <!-- Fancybox-->
-        <link rel="stylesheet" href="assets/plugins/css/jquery.fancybox.min.css">
-        <!-- Custom CSS-->
-        <link rel="stylesheet" href="assets/css/styles.css">
-        <link rel="stylesheet" href="assets/css/responsive.css">
+  <body id="top">
+    <!-- header 
+   ================================================== -->
+    <header>
+      <div class="row">
+        <div class="top-bar">
+          <a class="menu-toggle" href="#"><span>Menu</span></a>
 
-        <!-- Colors -->
-        <link rel="alternate stylesheet" href="assets/css/colors/blue.css" title="blue">
-        <link rel="stylesheet" href="assets/css/colors/defauld.css" title="defauld">
-        <link rel="alternate stylesheet" href="assets/css/colors/green.css" title="green">
-        <link rel="alternate stylesheet" href="assets/css/colors/blue-munsell.css" title="blue-munsell">
-        <link rel="alternate stylesheet" href="assets/css/colors/orange.css" title="orange">
-        <link rel="alternate stylesheet" href="assets/css/colors/purple.css" title="purple">
-        <link rel="alternate stylesheet" href="assets/css/colors/slate.css" title="slate">
-        <link rel="alternate stylesheet" href="assets/css/colors/yellow.css" title="yellow">
-    </head>
+          <div class="logo">
+            <h2>MAYABA</h2>
+            <a href="index.html">MAYABA</a>
+          </div>
 
-    <body class="white-vertion black-bg">
-
-        <!-- Start Loader -->
-        <div class="section-loader">
-            <div class="loader">
-                <div></div>
-                <div></div>
-            </div>
+          <nav id="main-nav-wrap">
+            <ul class="main-navigation">
+              <li class="current">
+                <a class="smoothscroll" href="#intro" title="">Home</a>
+              </li>
+              <li><a class="smoothscroll" href="#about" title="">About</a></li>
+              <li>
+                <a class="smoothscroll" href="#resume" title="">Resume</a>
+              </li>
+              <li>
+                <a class="smoothscroll" href="#portfolio" title="">Projects</a>
+              </li>
+              <li>
+                <a class="smoothscroll" href="#contact" title="">Contact</a>
+              </li>
+            </ul>
+          </nav>
         </div>
-        <!-- End Loader -->
+        <!-- /top-bar -->
+      </div>
+      <!-- /row -->
+    </header>
+    <!-- /header -->
 
-        <!--
-        ===================
-           NAVIGATION
-        ===================
-        -->
-        <header class="black-bg mh-header mh-fixed-nav nav-scroll mh-xs-mobile-nav wow fadeInUp" id="mh-header">
-            <div class="overlay"></div>
-            <div class="container">
-                <div class="row">
-                    <nav class="navbar navbar-expand-lg mh-nav nav-btn">
-                        <a class="navbar-brand" href="#mh-home">
-                            <!-- <img src="assets/images/logo.png" alt="" class="img-fluid"> -->
-                            <h2>Rahim.</h2>
-                        </a>
-                        <button class="navbar-toggler" type="button" data-toggle="collapse"
-                            data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                            aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon icon"></span>
-                        </button>
+    <!-- intro section
+   ================================================== -->
+    <section id="intro">
+      <div class="intro-overlay"></div>
+      <!-- <div class="section-video">
+        <video autoplay="" class="bgvid" loop="" muted="">
+          <source src="assets/video/video.webm" type="video/webm" />
+          <source src="assets/video/video.mp4" type="video/mp4" />
+          <!-- <source src="video/video.ogv" type="video/ogv"> -->
+        </video>
+      </div> -->
 
-                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                            <ul class="navbar-nav mr-0 ml-auto">
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#mh-about">About</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#mh-skills">Skills</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#mh-experience">Education & Experience</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#mh-projects">Projects</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#mh-testimonial">Testimonials</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#mh-contact">Contact</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </nav>
+      <div class="intro-content">
+        <div class="row">
+          <div class="col-twelve">
+            <h5>Hello, Possibilities.</h5>
+            <h1>I'm Abderrahim Mayaba.</h1>
+
+            <p class="intro-position">
+              <span>Full-stack Software Developer</span>
+              <span>Cybersecurity Engineer</span>
+            </p>
+
+            <a class="button stroke smoothscroll" href="#about" title=""
+              >More About Me</a
+            >
+          </div>
+        </div>
+      </div>
+      <!-- /intro-content -->
+
+      <ul class="intro-social">
+        <li>
+          <a href="https://www.linkedin.com/in/mayabaa/" target="_blank"
+            ><i class="fa fa-linkedin"></i
+          ></a>
+        </li>
+        <li>
+          <a href="https://github.com/mayaba" target="_blank"
+            ><i class="fa fa-github"></i
+          ></a>
+        </li>
+      </ul>
+      <!-- /intro-social -->
+    </section>
+    <!-- /intro -->
+
+    <!-- about section
+   ================================================== -->
+    <section id="about">
+      <div class="row section-intro">
+        <div class="col-twelve">
+          <h5>About</h5>
+          <h1>Let me introduce myself.</h1>
+
+          <div class="intro-info">
+            <img src="images/profile-pic.jpg" alt="Profile Picture" />
+
+            <p class="lead">
+              Professional Software & Cybersecurity Engineer. My ultimate skill
+              is constant self-improvement. Eager to transfer ideas and
+              knowledge into great tangible results. My mantra is
+              <strong>"Do more with less".</strong> I always leave a print!
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- /section-intro -->
+
+      <div class="row about-content">
+        <div class="col-six tab-full">
+          <h3>Profile</h3>
+          <p>
+            Creative and problem-solving engineer with rich experience and
+            knowledge in Software Development, Cybersecurity and IT Solutions. I
+            use my cybersecurity knowledge to develp systems that are very
+            secure and reliable. I am a fast learner and a team player.
+          </p>
+
+          <ul class="info-list">
+            <li>
+              <strong>Fullname:</strong>
+              <span>Abderrahim Mayaba</span>
+            </li>
+            <li>
+              <strong>Job:</strong>
+              <span>Software Developer, Cybersecurity Engineer</span>
+            </li>
+            <li>
+              <strong>Mobile:</strong>
+              <a href="callto:+15144767970"><span>(514)476-7970</span></a>
+            </li>
+            <li>
+              <strong>Website:</strong>
+              <span>mayaba.github.io</span>
+            </li>
+            <li>
+              <strong>Email:</strong>
+              <span>ammayaba@gmail.com</span>
+            </li>
+            <li>
+              <strong>LinkedIn:</strong>
+              <span>mayabaa</span>
+            </li>
+          </ul>
+          <!-- /info-list -->
+        </div>
+
+        <div class="col-six tab-full">
+          <h3>Skills</h3>
+          <ul class="normal">
+            <li>
+              <b>Personal Skills:</b> Willingness to learn, Problem Solving,
+              Creativity, Critical Thinking, Leadership, Teamwork,
+              Communication, Constructive Mindset.
+            </li>
+            <li>
+              <b>Engineering:</b> OOP, Microservices, Architecture, Design
+              Patterns, SDLC, Agile.
+            </li>
+            <li>
+              <b>Cybersecurity:</b> Application Secruity, PenTesting, Code
+              Analyzing, Security Platforms (SIEM, FW, Email Gateway ... etc),
+              Incident Response, Vulnerability Assessment.
+            </li>
+            <li><b>Languages:</b> Java, JavaScript, TypeScript, Python.</li>
+            <li><b>Back-end:</b> Spring, Node.js, Nest.js, Rest API</li>
+            <li><b>Front-end:</b> Angular, React, HTML, CSS, Bootstrap</li>
+            <li>
+              <b>Databases:</b> SQL, NoSQL, PostgreSQL, MongoDB, MySQL, Redis,
+              JDBC, Hibernate.
+            </li>
+            <li>
+              <b>Testing:</b> Junit, Mockito, Mocha, Chai, TDD, Unit Tests.
+            </li>
+            <li><b>DevOps:</b> Automation, Git, GitHub, Docker, VMs, Linux.</li>
+          </ul>
+          <!-- /skill-bars -->
+        </div>
+      </div>
+      <!-- 
+      <div class="row button-section">
+        <div class="col-twelve">
+          <a href="#contact" title="Hire Me" class="button stroke smoothscroll"
+            >Hire Me</a
+          >
+          <a href="#" title="Download CV" class="button button-primary"
+            >Download CV</a
+          >
+        </div>
+      </div> -->
+    </section>
+    <!-- /process-->
+
+    <!-- resume Section
+   ================================================== -->
+    <section id="resume" class="grey-section">
+      <div class="row section-intro">
+        <div class="col-twelve">
+          <h5>Resume</h5>
+          <h1>More of my credentials.</h1>
+        </div>
+      </div>
+      <!-- /section-intro-->
+
+      <div class="row resume-timeline">
+        <div class="col-twelve resume-header">
+          <h2>Education</h2>
+        </div>
+        <!-- /resume-header -->
+
+        <div class="col-twelve">
+          <div class="timeline-wrap">
+            <div class="timeline-block">
+              <div class="timeline-ico">
+                <i class="fa fa-graduation-cap"></i>
+              </div>
+
+              <div class="timeline-header">
+                <h3>MEng in Software Engineering</h3>
+                <p>09/2019 - 09/2021</p>
+              </div>
+
+              <div class="timeline-content">
+                <h4>Concordia University, Montreal, QC, Canada</h4>
+                <p>
+                  Sample classes: Programming and Problem Solving, Advanced
+                  Programming Practices, Software Design Methodologies, Advanced
+                  Software Architectures, Software Comprehension and
+                  Maintenance.
+                  <a
+                    href="https://www.concordia.ca/ginacody/computer-science-software-eng/programs/software-eng/meng.html"
+                    target="_blank"
+                    >Learn more</a
+                  >
+                </p>
+              </div>
+            </div>
+            <!-- /timeline-block -->
+
+            <div class="timeline-block">
+              <div class="timeline-ico">
+                <i class="fa fa-graduation-cap"></i>
+              </div>
+
+              <div class="timeline-header">
+                <h3>BSc in Computer Engineering</h3>
+                <p>09/2010 - 05/2015</p>
+              </div>
+
+              <div class="timeline-content">
+                <h4>Yanbu University College, Yanbu, Saudi Arabia</h4>
+                <p>
+                  Sample classes: Object Oriented Programing, Operating Systems,
+                  Database Systems, Data Structures in Java, Introduction to
+                  Real Time Embedded Systems, Mechatronics.
+                  <a
+                    href="http://www.rcyci.edu.sa/en/wp-content/uploads/2021/03/RCYCI-Study-plan-CE-2015-20181226-Aproved-1.pdf"
+                    target="_blank"
+                    >Learn more</a
+                  >
+                </p>
+              </div>
+            </div>
+            <!-- /timeline-block -->
+
+            <!-- /timeline-block -->
+          </div>
+          <!-- /timeline-wrap -->
+        </div>
+        <!-- /col-twelve -->
+      </div>
+
+      <div class="row resume-timeline">
+        <div class="col-twelve resume-header">
+          <h2>Work Experience</h2>
+        </div>
+        <!-- /resume-header -->
+
+        <div class="col-twelve">
+          <div class="timeline-wrap">
+            <div class="timeline-block">
+              <div class="timeline-ico">
+                <i class="fa fa-briefcase"></i>
+              </div>
+
+              <div class="timeline-header">
+                <h3>Automation Engineer / SOC Analyst</h3>
+                <p>10/2020 - 04/2022</p>
+              </div>
+
+              <div class="timeline-content">
+                <h4>Ebttikar Technology</h4>
+                <ul>
+                  <li>
+                    Identified opportunities for automation within software
+                    processes to minimize the used resources to achieve daily
+                    tasks.
+                  </li>
+                  <li>
+                    Designed and programmed an IP/Hash reputation lookup system
+                    to minimize the lookup process from approximately 6 hours to
+                    real-time.
+                  </li>
+                  <li>
+                    Conducted static code analyzing on suspicious scripts to
+                    identify malicious behavior.
+                  </li>
+                  <li>
+                    Created new ways to solve existing production security
+                    issues.
+                  </li>
+                  <li>
+                    Provided real-time guidance to customers on network
+                    configuration, security settings and policies, and attack
+                    mitigation procedures.
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <!-- /timeline-block -->
+
+            <div class="timeline-block">
+              <div class="timeline-ico">
+                <i class="fa fa-briefcase"></i>
+              </div>
+
+              <div class="timeline-header">
+                <h3>IT Team Leader / Aviation Systems Administrator</h3>
+                <p>09/2016 - 08/2019</p>
+              </div>
+
+              <div class="timeline-content">
+                <h4>TAV Technologies</h4>
+                <ul>
+                  <li>
+                    Managed and monitored the team progress to meet the SLA
+                    requirements through influence rather than direct authority.
+                  </li>
+                  <li>
+                    Provided detailed project status reporting as directed by
+                    management to achieve the project goals.
+                  </li>
+                  <li>
+                    Performed moderately complex assignments, using judgment to
+                    resolve problems and provide routine recommendations.
+                  </li>
+                  <li>
+                    Continuously Provided daily support to maintain the
+                    functionality, performance, availability, and security of
+                    more than 10 aviation systems developed by TAV Technologies.
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <!-- /timeline-block -->
+
+            <div class="timeline-block">
+              <div class="timeline-ico">
+                <i class="fa fa-briefcase"></i>
+              </div>
+
+              <div class="timeline-header">
+                <h3>IT Specialist</h3>
+                <p>10/2015 - 02/2016</p>
+              </div>
+
+              <div class="timeline-content">
+                <h4>Atu Duty Free</h4>
+                <ul>
+                  <li>
+                    Participated in on-call rotation to provide 24 X 7
+                    production support to achieve the SLA agreement.
+                  </li>
+                  <li>
+                    Installed, configured and deployed new PCs, Servers, and
+                    software.
+                  </li>
+                  <li>
+                    Investigated, resolved and closed user reported PC problems
+                    and application issues through the ticketing system.
+                  </li>
+                  <li>
+                    Performed administration activities such as setting user
+                    accounts, roles, access, and privileges.
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <!-- /timeline-block -->
+
+            <div class="timeline-block">
+              <div class="timeline-ico">
+                <i class="fa fa-briefcase"></i>
+              </div>
+
+              <div class="timeline-header">
+                <h3>Cooperative Education Student</h3>
+                <p>02/2015 - 08/2015</p>
+              </div>
+
+              <div class="timeline-content">
+                <h4>YASREF</h4>
+                <ul>
+                  <li>
+                    Designed and programmed an information system to manage the
+                    mobile bills of more than 2,000 employees instantly, and
+                    significantly reduced the task time from days to real-time.
+                  </li>
+                  <li>
+                    Installed, configured and troubleshooted the Integrated
+                    Refinery Information System (IRIS).
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <!-- /timeline-wrap -->
+        </div>
+        <!-- /col-twelve -->
+      </div>
+      <!-- /resume-timeline -->
+
+      <!-- /resume-timeline -->
+    </section>
+    <!-- /features -->
+
+    <!-- Portfolio Section
+   ================================================== -->
+    <section id="portfolio">
+      <div class="row section-intro">
+        <div class="col-twelve">
+          <h5>Projects</h5>
+          <h1>Check Out Some of My Works.</h1>
+        </div>
+      </div>
+      <!-- /section-intro-->
+
+      <div class="row portfolio-content">
+        <div class="col-twelve">
+          <!-- portfolio-wrapper -->
+          <div id="folio-wrapper" class="block-1-2 block-mob-full stack">
+            <div class="bgrid folio-item">
+              <div class="item-wrap">
+                <img src="images/portfolio/p-ast.jpg" alt="code analyzer" />
+                <a href="#modal-01" class="overlay">
+                  <div class="folio-item-table">
+                    <div class="folio-item-cell">
+                      <h3 class="folio-title">Java Static Code Analyzer</h3>
+                      <span class="folio-types"> Software Engineering </span>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <!-- /folio-item -->
+
+            <div class="bgrid folio-item">
+              <div class="item-wrap">
+                <img src="images/portfolio/Web_Crawler.jpg" alt="web crawler" />
+                <a href="#modal-02" class="overlay">
+                  <div class="folio-item-table">
+                    <div class="folio-item-cell">
+                      <h3 class="folio-title">Web Crawler</h3>
+                      <span class="folio-types"> Software Development </span>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <!-- /folio-item -->
+
+            <div class="bgrid folio-item">
+              <div class="item-wrap">
+                <img src="images/portfolio/billing_img.jpg" alt="bills" />
+                <a href="#modal-03" class="overlay">
+                  <div class="folio-item-table">
+                    <div class="folio-item-cell">
+                      <h3 class="folio-title">Employee Billing System</h3>
+                      <span class="folio-types"> Software Development </span>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <!-- /folio-item -->
+
+            <div class="bgrid folio-item">
+              <div class="item-wrap">
+                <img src="images/portfolio/p-face.PNG" alt="faces" />
+                <a href="#modal-04" class="overlay">
+                  <div class="folio-item-table">
+                    <div class="folio-item-cell">
+                      <h3 class="folio-title">Face Detection System</h3>
+                      <span class="folio-types">
+                        Full-stack Web Development
+                      </span>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <!-- /folio-item -->
+
+            <div class="bgrid folio-item">
+              <div class="item-wrap">
+                <img src="images/portfolio/iplookup.jpg" alt="ips" />
+                <a href="#modal-05" class="overlay">
+                  <div class="folio-item-table">
+                    <div class="folio-item-cell">
+                      <h3 class="folio-title">
+                        IPs/Hashes reputation lookup System
+                      </h3>
+                      <span class="folio-types"> Automation </span>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <!-- /folio-item -->
+
+            <div class="bgrid folio-item">
+              <div class="item-wrap">
+                <img src="images/portfolio/robot.jpg" alt="Salad" />
+                <a href="#modal-06" class="overlay">
+                  <div class="folio-item-table">
+                    <div class="folio-item-cell">
+                      <h3 class="folio-title">Discussion Application</h3>
+                      <span class="folio-types">
+                        Full-stack Web Development
+                      </span>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <!-- /folio-item -->
+
+            <!-- modal popups - begin
+	            ============================================================= -->
+            <div id="modal-01" class="popup-modal slider mfp-hide">
+              <div class="description-box">
+                <h4>Java Static Code Analyzer</h4>
+                <p>
+                  Developed a Java static code analyzer that utilizes the
+                  Abstract Syntax Tree (AST) to detect and log the presence of
+                  destructive wrapping in exception handling, which is an
+                  anti-pattern that results in losing the stack trace. Used
+                  tools: Eclipse JDT, Apache Maven, Log4j.
+                </p>
+
+                <div class="categories">
+                  Software Engineering, Java, Design Patterns, AST.
                 </div>
+              </div>
+
+              <div class="link-box">
+                <a
+                  href="https://github.com/mayaba/ast.destructivewrapping"
+                  target="_blank"
+                  >Code Repo</a
+                >
+                <a href="#" class="popup-modal-dismiss">Close</a>
+              </div>
             </div>
-        </header>
+            <!-- /modal-01 -->
 
-        <!--
-        ===================
-            HOME 
-        ===================
-                -->
-        <section class="mh-home" id="mh-home">
-            <div class="home-ovimg">
-                <div class="container">
-                    <div class="row xs-column-reverse vertical-middle-content section-separator">
-                        <div class="col-sm-6">
-                            <div class="mh-header-info">
-                                <div class="mh-promo wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.1s">
-                                    <span>Hello I'm</span>
-                                </div>
+            <div id="modal-02" class="popup-modal slider mfp-hide">
+              <div class="description-box">
+                <h4>Steam Web Crawler</h4>
+                <p>
+                  Developed a Python Web Crawler that crawls the Steam gaming
+                  platform to extract data that is later used to get insights
+                  for the game developers. Used tools: Scrapy, Pandas, NumPy,
+                  and Selenium.
+                </p>
 
-                                <h2 class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.2s">Abderrahim
-                                    Mayaba
-                                </h2>
-                                <h4 class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.3s">
-                                    I'm
-                                    <div id="typed-strings">
-                                        <p>Software Engineer</p>
-                                        <p>Full-stack Software Developer</p>
-                                        <p>Information Security Engineer</p>
-                                        <p>Information Technology Specialist</p>
-                                    </div>
-                                    <span id="typed"></span>
-
-                                </h4>
-
-                                <ul>
-                                    <li class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.4s"><i
-                                            class="fa fa-envelope"></i><a
-                                            href="mailto:ammayaba@gmail.com">ammayaba@gmail.com</a></li>
-                                    <li class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.5s"><i
-                                            class="fa fa-phone"></i><a href="callto:+15144767970">+1 (514) 476-7970</a>
-                                    </li>
-                                </ul>
-
-                                <ul class="social-icon wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.7s">
-                                    <li><a href="https://github.com/mayaba" target="_blank"><i
-                                                class="fa fa-github"></i></a>
-                                    </li>
-                                    <li><a href="https://www.linkedin.com/in/mayabaa/" target="_blank"><i
-                                                class="fa fa-linkedin"></i></a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="col-sm-6">
-                            <div class="hero-img wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.6s">
-                                <div class="img-border">
-                                    <img src="assets/images/IMG_9436.PNG" alt="" class="img-fluid">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                <div class="categories">
+                  Web Development, Python, Data mining and analyzing.
                 </div>
+              </div>
+
+              <div class="link-box">
+                <a href="https://github.com/mayaba/SteamCrawler" target="_blank"
+                  >Code Repo</a
+                >
+                <a href="#" class="popup-modal-dismiss">Close</a>
+              </div>
             </div>
-        </section>
+            <!-- /modal-02 -->
 
-        <!--
-        ==================
-            ABOUT
-        =================
-        -->
+            <div id="modal-03" class="popup-modal slider mfp-hide">
+              <div class="description-box">
+                <h4>Employee Billing System</h4>
+                <p>
+                  Designed and programmed a phone billing system that
+                  automatically calculates the portion of the phone bill that
+                  the employee must pay, which reduced the time of calculating
+                  the bill from several days to real-time.
+                </p>
 
-
-        <section class="mh-about" id="mh-about">
-            <div class="container">
-                <div class="row section-separator pb-0">
-                    <div class="section-title col-sm-12 wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.1s">
-                        <h1>About Me</h1>
-                    </div>
-                    <div class="grid-item row sw-eng">
-                        <div class="row">
-                            <div class="col-sm-12 col-md-6">
-                                <div class="mh-about-img shadow-2">
-                                    <img src="assets/images/coding.jpg" alt="" class="img-fluid">
-                                </div>
-                            </div>
-                            <div class="col-sm-12 col-md-6">
-                                <div class="mh-about-inner">
-                                    <p class="mb-0">
-                                        Professional Full-stack Developer and Cybersecurity Engineer, holding a <strong>master's degree in Software Engineering</strong> with
-                                rich experience and knowledge in Software Engineering, Cybersecurity and IT Solutions. My ultimate skill is
-                                constant self-improvement. Eager to transfer ideas and knowledge into great tangible results. Extrelemy interested in developing and securing software systems, and to birdge the gap between Software Engineering and Cybersecurity. Creative, curious and <strong>always leaves a print!</strong>
-                            <br><br>I would bring to your company a broad range of skills, including:
-                            </p>
-                            <div class="mh-about-tag wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.3s">
-                                <ul>
-                                    <li>- Detecting and remediating vulnerabilities in early stages of the software<br>    (before the production stage), which significantly save resources and improve the reputation.</li>
-                                    <li>- Developing highly secure and efficient systems with a simple touch of creativity.</li>
-                                    <li>- Positively discuss the current practices to spot opportunities for improvements.</li>
-                                    <li>- Constantly providing new evolutionary ideas and suggestions to ensure meeting of both the project schedule and the SLA agreement.</li>
-                                </ul>
-                            </div>
-                            <div class="mh-about-tag wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.3s">
-                                <ul>
-                                    <li><span><strong>Software Engineering</strong></span></li>
-                                    <li><span><strong>Full-stack Development</strong></span></li>
-                                    <li><span><strong>Cybersecurity</strong>    </span></li>
-                                </ul>
-                            </div>
-                                </div>
-                            </div>
-                            
-                        </div>
-
-                    </div>
-
-                </div> <!-- End: .row -->
-            </div>
-
-        </section>
-
-<!--         ===================
-           SERVICE
-        ===================
-         -->
-        <!-- <section class="mh-service">
-            <div class="container">
-                <div class="row section-separator">
-                    <div class="col-sm-12 text-center section-title wow fadeInUp" data-wow-duration="0.8s"
-                        data-wow-delay="0.2s">
-                        <h2>What I do</h2>
-                    </div>
-                    <div class="col-sm-4">
-                        <div class="mh-service-item shadow-1 dark-bg wow fadeInUp box-height" data-wow-duration="0.8s"
-                            data-wow-delay="0.7s">
-                            <i class="fa fa-object-ungroup sky-color"></i>
-                            <h3>Software Development</h3>
-                            <p>
-                                Carrying out all Software development activities. Starting from Analyzing, Architecting,
-                                Designing, and Coding, and ending with Deploying, Maintaining and Evolving software.
-                                Familiar with the most Software Development Processes, such as Agile and Waterfall.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="col-sm-4">
-                        <div class="mh-service-item shadow-1 dark-bg wow fadeInUp box-height" data-wow-duration="0.8s"
-                            data-wow-delay="0.5s">
-                            <i class="fa fa-code iron-color"></i>
-                            <h3>Web Development</h3>
-                            <p>
-                                Requirements analyzing, designing, coding and modifying web-based applications, from
-                                layout
-                                to function according to a client’s specifications. Strive to create visually appealing
-                                web
-                                applications that present complex structures and algorithms in a user-friendly and
-                                effective
-                                design.
-                            </p>
-                        </div>
-                    </div>
-                    <!-- <div class="col-sm-4">
-                        <div class="mh-service-item shadow-1 dark-bg wow fadeInUp box-height" data-wow-duration="0.8s"
-                            data-wow-delay="0.3s">
-                            <i class="fa fa-bullseye purple-color"></i>
-                            <h3>UI/UX Design</h3>
-                            <p>
-                                Creating user-friendly interfaces that enable users to understand how to use complex
-                                technical products. Aiming to create an optimal experience for the user when they
-                                interact
-                                with a system.
-                            </p>
-                        </div>
-                    </div> -->
+                <div class="categories">
+                  Software Development, Java, Desktop Application Development,
+                  MySQL.
                 </div>
+              </div>
 
-                <!-- devops engineering -->
-                <!-- <div class="row">
-                    <div class="col-sm-4">
-                        <div class="mh-service-item shadow-1 dark-bg wow fadeInUp box-height" data-wow-duration="0.8s"
-                            data-wow-delay="0.5s">
-                            <i class="fa fa-server green-color"></i>
-                            <h3>DevOps Engineering</h3>
-                            <p>
-                                Creating and maintaining a release engineering pipeline, that brings high quality code
-                                changes from a developer’s workspace to the end user passing through all the phases of
-                                release engineering, which are code change integration, continuous integration, build
-                                system
-                                specifications, infrastructure-as-code, deployment and release.
-                            </p>
-                        </div>
-                    </div>
+              <div class="link-box">
+                <a href="#" class="popup-modal-dismiss">Close</a>
+              </div>
+            </div>
+            <!-- /modal-03 -->
+
+            <div id="modal-04" class="popup-modal slider mfp-hide">
+              <div class="description-box">
+                <h4>Face Detection System</h4>
+                <p>
+                  Developed a Web application that receives an image URL as
+                  input from the user, detects the faces in the image, by
+                  querying an external API, and displays the input image with a
+                  box around the detected faces. Used tools: JavaScript,
+                  TypeScript, Node.js, React, PostgreSQL, Heroku.
+                </p>
+
+                <div class="categories">
+                  Full-stack Web Development, JavaScript, TypeScript, Rest API,
+                  PostgreSQL, Heroku.
                 </div>
-                 -->
+              </div>
+
+              <div class="link-box">
+                <a href="http://robodiscussion.meteorapp.com/" targer="_blank"
+                  >Application URL</a
+                >
+                <a href="https://github.com/mayaba/brainapp-api" target="_blank"
+                  >Back-end Repo</a
+                >
+                <a href="https://github.com/mayaba/brainapp" target="_blank"
+                  >Front-end Repo</a
+                >
+                <a href="#" class="popup-modal-dismiss">Close</a>
+              </div>
             </div>
+            <!-- /modal-04 -->
 
-        </section> 
+            <div id="modal-05" class="popup-modal slider mfp-hide">
+              <div class="description-box">
+                <h4>IPs/Hashes reputation lookup System</h4>
+                <p>
+                  An automation system written in Python that qureies VirusTotal
+                  API with provided IPs/Hashes to get the reputation of the IP
+                  or the hash. The output of the script is an excel file
+                  contains a detailed report.
+                </p>
 
-        <!--
-        ===================
-           SKILLS
-        ===================
-        -->
-        <section class="mh-skills" id="mh-skills">
-            <div class="container">
-                <div class="row section-separator">
-                    <div class="section-title text-center col-sm-12">
-                    </div>
-                    <div class="col-sm-12 col-md-6">
-                        <div class="mh-skills-inner">
-                            <div class="mh-professional-skill wow fadeInUp" data-wow-duration="0.8s"
-                                data-wow-delay="0.3s">
-                                <h3>Technical Skills</h3>
-                                <div class="each-skills">
-                                    <div class="candidatos">
-                                        <div class="parcial">
-                                            <div class="info">
-                                                <div class="nome">Programming languages: Java, JavaScript, TypeScript, Python, C</div>
-                                            </div>
-                                            <div class="progressBar">
-                                                <div class="percentagem" style="width: 100%;"></div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="candidatos">
-                                        <div class="parcial">
-                                            <div class="info">
-                                                <div class="nome">Software Engineering: OOP, Design Petterns, Microservices</div>
-                                            </div>
-                                            <div class="progressBar">
-                                                <div class="percentagem" style="width: 100%;"></div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="candidatos">
-                                        <div class="parcial">
-                                            <div class="info">
-                                                <div class="nome">Cybersecurity: Application Security, Automation, PenTesting</div>
-                                            </div>
-                                            <div class="progressBar">
-                                                <div class="percentagem" style="width: 100%;"></div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="candidatos">
-                                        <div class="parcial">
-                                            <div class="info">
-                                                <div class="nome">Back-end: Spring boot, Spring security, Node.js, Nest.js, Rest API</div>
-                                            </div>
-                                            <div class="progressBar">
-                                                <div class="percentagem" style="width: 100%;"></div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="candidatos">
-                                        <div class="parcial">
-                                            <div class="info">
-                                                <div class="nome">Front-end: Angular, HTML, CSS, React, Bootstrap, Rest API, jQuery</div>
-                                            </div>
-                                            <div class="progressBar">
-                                                <div class="percentagem" style="width: 100%;"></div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="candidatos">
-                                        <div class="parcial">
-                                            <div class="info">
-                                                <div class="nome">Databases: SQL, NoSQL, PostgreSQL, MongoDB, Redis, Hibernate</div>
-                                            </div>
-                                            <div class="progressBar">
-                                                <div class="percentagem" style="width: 100%;"></div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="candidatos">
-                                        <div class="parcial">
-                                            <div class="info">
-                                                <div class="nome">Testing: Junit, Mockito, Mocha, Chai, Test-driven Development</div>
-                                            </div>
-                                            <div class="progressBar">
-                                                <div class="percentagem" style="width: 100%;"></div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="candidatos">
-                                        <div class="parcial">
-                                            <div class="info">
-                                                <div class="nome">DevOps: Git, GitHub, GitLab, Bitbucket, Docker, VMs, Linux</div>
-                                            </div>
-                                            <div class="progressBar">
-                                                <div class="percentagem" style="width: 100%;"></div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-12 col-md-6">
-                        <div class="mh-professional-skills wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.5s">
-                            <h3>Professional/Personal Skills</h3>
-                            <ul class="mh-professional-progress">
-                                <li>
-                                    <div class="mh-progress mh-progress-circle" data-progress="100"></div>
-                                    <div class="pr-skill-name">Creativity</div>
-                                </li>
-                                <li>
-                                    <div class="mh-progress mh-progress-circle" data-progress="100"></div>
-                                    <div class="pr-skill-name">Willingness to learn</div>
-                                </li>
-                                <li>
-                                    <div class="mh-progress mh-progress-circle" data-progress="100"></div>
-                                    <div class="pr-skill-name">Teamwork</div>
-                                </li>
-                                <li>
-                                    <div class="mh-progress mh-progress-circle" data-progress="100"></div>
-                                    <div class="pr-skill-name">Leadership</div>
-                                </li>
-                                <li>
-                                    <div class="mh-progress mh-progress-circle" data-progress="100"></div>
-                                    <div class="pr-skill-name">Curiosity</div>
-                                </li>
-                                <li>
-                                    <div class="mh-progress mh-progress-circle" data-progress="100"></div>
-                                    <div class="pr-skill-name">Problem Solving</div>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
+                <div class="categories">
+                  Automation, Software Development, Rest API.
                 </div>
+              </div>
+
+              <div class="link-box">
+                <a
+                  href="https://mayaba.github.io/assets/documents/Hash%20Tool%20Report.pdf"
+                  target="_blank"
+                  >Specification Details</a
+                >
+                <a href="#" class="popup-modal-dismiss">Close</a>
+              </div>
             </div>
-        </section>
+            <!-- /modal-05 -->
 
-        <!--
-        ===================
-           EXPERIENCES
-        ===================
-        -->
-        <section class="mh-experince" id="mh-experience">
-            <div class="bolor-overlay">
-                <div class="container">
-                    <div class="row section-separator">
-                        <div class="col-sm-12 col-md-6">
-                            <div class="mh-education">
-                                <h3 class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.2s">Education</h3>
-                                <div class="mh-education-deatils">
-                                    <!-- Education Institutes-->
-                                    <div class="mh-education-item dark-bg wow fadeInUp" data-wow-duration="0.8s"
-                                        data-wow-delay="0.3s">
-                                        <h4>Master of Engineering in Software Engineering From <a
-                                                href="https://www.concordia.ca/ginacody/computer-science-software-eng/programs/software-eng/meng.html"
-                                                target="_blank">Concordia
-                                                University</a> , Montreal, CA</h4>
-                                        <div class="mh-eduyear">Sep 2019 - Aug 2021</div>
-                                        <!-- <span>Some studied courses :</span>
-                                    <ul class="work-responsibility">
-                                        <li><i class="fa fa-circle-thin"></i> Advanced Software Architectures</li>
-                                        <li><i class="fa fa-circle-thin"></i> Advanced Programming Practices</li>
-                                        <li><i class="fa fa-circle-thin"></i> Software Design Methodologies</li>
-                                        <li><i class="fa fa-circle-thin"></i> Software Mining and Analysis</li>
-                                    </ul> -->
-                                    </div>
-                                    <!-- Education Institutes-->
-                                    <div class="mh-education-item dark-bg wow fadeInUp" data-wow-duration="0.8s"
-                                        data-wow-delay="0.5s">
-                                        <h4>Bachelor of Science in Computer Engineering From <a
-                                                href="http://www.rcyci.edu.sa/en/yuc-m/" target="_blank">Yanbu
-                                                University
-                                                College</a> , Yanbu, SA</h4>
-                                        <div class="mh-eduyear">Sep 2010 - May 2015</div>
-                                        <!-- <span>Some studied courses :</span>
-                                    <ul class="work-responsibility">
-                                        <li><i class="fa fa-circle-thin"></i> Computer Programming</li>
-                                        <li><i class="fa fa-circle-thin"></i> Computer Architicture</li>
-                                        <li><i class="fa fa-circle-thin"></i> Data Structres and Algorithms</li>
-                                    </ul> -->
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-sm-12 col-md-6">
-                            <div class="mh-work">
-                                <h3>Work Experience</h3>
-                                <div class="mh-experience-deatils">
-                                    <!-- Education Institutes-->
-                                    <div class="mh-work-item dark-bg wow fadeInUp" data-wow-duration="0.8s"
-                                        data-wow-delay="0.6s">
-                                        <h4>SOC Analyst / Process Automator at <a href="https://ebttikar.com/"
-                                                target="_blank"> Ebttikar Technology </a></h4>
-                                        <div class="mh-eduyear">Oct 2020 - Mar 2022</div>
+            <div id="modal-06" class="popup-modal slider mfp-hide">
+              <div class="description-box">
+                <h4>Discussion Application</h4>
+                <p>
+                  A fun web discussion application, built using Meteor and React
+                  frameworks, that allow users to add new discussions or comment
+                  on existing ones. In this application, I took advantges of
+                  some of the Meteor supported features, such as Methods and
+                  built-in account management. Alongside the packages that are
+                  provided by Meteor, I used Robohash API, which provides a
+                  unique profile photo for any queried text. I, also, used
+                  Bootstrap and ReactStrap for styling. The application is
+                  hosted on Meteor Galaxy Cloud Platform.
+                </p>
 
-                                    </div>
-                                    <!-- Education Institutes-->
-                                    <div class="mh-work-item dark-bg wow fadeInUp" data-wow-duration="0.8s"
-                                        data-wow-delay="0.6s">
-                                        <h4>IT Team Leader/Aviation Systems Administrator at <a
-                                                href="https://www.tavtechnologies.aero/" target="_blank">TAV
-                                                Technologies</a></h4>
-                                        <div class="mh-eduyear">Sep 2016 - Aug 2019</div>
-
-                                    </div>
-                                    <!-- Education Institutes-->
-                                    <div class="mh-work-item dark-bg wow fadeInUp" data-wow-duration="0.8s"
-                                        data-wow-delay="0.7s">
-                                        <h4>Information Technologies Specialist at <a href="https://atu.com.tr/"
-                                                target="_blank">ATU Duty Free</a></h4>
-                                        <div class="mh-eduyear">Oct 2015 - Feb 2016</div>
-
-                                    </div>
-                                    <!-- Education Institutes-->
-                                    <div class="mh-work-item dark-bg wow fadeInUp" data-wow-duration="0.8s"
-                                        data-wow-delay="0.7s">
-                                        <h4>Cooperative Education Student at <a
-                                                href="https://www.yasref.com/en-us/Pages/index.aspx"
-                                                target="_blank">YASREF</a></h4>
-                                        <div class="mh-eduyear">Feb 2015 - Aug 2015</div>
-                                        <!-- <span>Responsibility :</span>
-                                    <ul class="work-responsibility">
-                                        <li><i class="fa fa-circle"></i>Validate CSS</li>
-                                        <li><i class="fa fa-circle"></i>Project Management</li>
-                                    </ul> -->
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                <div class="categories">
+                  Full-stack Web Development, Meteor.js, Rest API, PostgreSQL.
                 </div>
+              </div>
+
+              <div class="link-box">
+                <a href="http://robodiscussion.meteorapp.com/" target="_blank"
+                  >Application URL</a
+                >
+                <a href="#" class="popup-modal-dismiss">Close</a>
+              </div>
             </div>
-        </section>
+            <!-- /modal-06 -->
 
-        <!--
-        ===================
-          Personal PROJECTS
-        ===================
-        -->
-        <section class="mh-featured-project image-bg featured-img-one" id="mh-projects">
-            <div class="img-color-overlay">
-                <div class="container">
-                    <div class="row section-separator">
-                        <div class="section-title col-sm-12">
-                            <h3>Featured Projects</h3>
-                        </div>
-                        <div class="col-sm-12">
-                            <div class="mh-single-project-slide-by-side row">
-                                <!-- Project Items -->
-                                <!-- Java project -->
-                                <div class="col-sm-12 mh-featured-item">
-                                    <div class="row">
-                                        <div class="col-sm-7 center-img">
-                                            <div class="mh-featured-project-img shadow-2 wow fadeInUp"
-                                                data-wow-duration="0.8s" data-wow-delay="0.2s">
-                                                <img src="assets/images/p-ast.jpg" alt="" class="img-fluid">
-                                            </div>
-                                        </div>
-                                        <div class="col-sm-5">
-                                            <div class="mh-featured-project-content">
-                                                <h4 class="project-category wow fadeInUp" data-wow-duration="0.8s"
-                                                    data-wow-delay="0.4s">Code Analyzing | Algorithms</h4>
-                                                <h2 class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.5s">
-                                                    Static Code Analyzer
-                                                </h2>
-                                                <span class="wow fadeInUp" data-wow-duration="0.8s"
-                                                    data-wow-delay="0.6s">Code Analyzing and Algorithms</span>
-                                                <p class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.7s">
-                                                    Java
-                                                    Static Code Analyzer that takes advantage of the Abstract Syntax
-                                                    Tree
-                                                    (AST) to detect and log the presence of destructive wrapping in
-                                                    exception handling, which is an anti-pattern that results in losing
-                                                    the
-                                                    stack trace (which is extremely important for locating and fixing
-                                                    bugs).The tools I used, alongside Eclipse IDE, are: Apache Maven (to
-                                                    manage dependencies) and Log4j (to log the exact location of the
-                                                    anti-pattern).</p>
-                                                <a href="https://github.com/mayaba/ast.destructivewrapping"
-                                                    class="btn btn-fill wow fadeInUp" data-wow-duration="0.8s"
-                                                    data-wow-delay="0.7s" target="_blank">Check Code</a>
-                                                <div class="mh-about-tag wow fadeInUp" data-wow-duration="0.8s"
-                                                    data-wow-delay="0.3s">
-                                                    <span class="wow fadeInUp ml-1" data-wow-duration="0.8s"
-                                                        data-wow-delay="0.6s">Some Demonstrated Skills</span>
-                                                    <ul class="mt-3">
-                                                        <li><span>API</span></li>
-                                                        <li><span>Static Code Analyzing</span></li>
-                                                        <li><span>Log4j</span></li>
-                                                        <li><span>JDT</span></li>
-                                                        <li><span>Testing and Debugging</span></li>
-                                                        <li><span>Error Handling</span></li>
-                                                        <li><span>AST</span></li>
-                                                        <li><span>Frameworks/Libraries</span></li>
-                                                        <li><span>Java</span></li>
-                                                        <li><span>Apache Maven</span></li>
+            <!-- modal popups - end
+	            ============================================================= -->
+          </div>
+          <!-- /portfolio-wrapper -->
+        </div>
+        <!-- /twelve -->
+      </div>
+      <!-- /portfolio-content -->
+    </section>
+    <!-- /portfolio -->
 
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
+    <!-- CTA Section
+   ================================================== -->
+    <section id="cta" class="grey-section">
+      <div class="row cta-content">
+        <div class="col-twelve section-ads">
+          <h2 class="h01">
+            <a href="http://www.dreamhost.com/r.cgi?287326|STYLESHOUT"
+              >Styleshout Recommends Dreamhost.</a
+            >
+          </h2>
 
-                                <!-- Project Items -->
-                                <!-- Web crawler -->
-                                <div class="col-sm-12 mh-featured-item">
-                                    <div class="row">
-                                        <div class="col-sm-7 center-img">
-                                            <div class="mh-featured-project-img shadow-2 wow fadeInUp"
-                                                data-wow-duration="0.8s" data-wow-delay="0.2s">
-                                                <img src="assets/images/p-auto.jpg" alt="" class="img-fluid">
-                                            </div>
-                                        </div>
-                                        <div class="col-sm-5">
-                                            <div class="mh-featured-project-content">
-                                                <h4 class="project-category wow fadeInUp" data-wow-duration="0.8s"
-                                                    data-wow-delay="0.4s">Web Crawling | Automation</h4>
-                                                <h2 class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.5s">
-                                                    Steam Web Crawler
-                                                </h2>
-                                                <span class="wow fadeInUp" data-wow-duration="0.8s"
-                                                    data-wow-delay="0.6s">Data Mining and Analyzing</span>
-                                                <p class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.7s">
-                                                    Web
-                                                    crawler written in Python that crawl all the games hosted in the
-                                                    Steam
-                                                    Gaming Platform and get specific data, such as number of reviews,
-                                                    reviews, release information, etc., for the purpose of analyzing and
-                                                    getting useful insights which can be useful for games developers.
-                                                    The
-                                                    code, also, automate the process of bypassing the age checker by
-                                                    selecting an age that is more than 18.</p>
-                                                <a href="https://github.com/mayaba/SteamCrawler"
-                                                    class="btn btn-fill wow fadeInUp" data-wow-duration="0.8s"
-                                                    data-wow-delay="0.7s" target="_blank">Check Code</a>
-                                                <div class="mh-about-tag wow fadeInUp" data-wow-duration="0.8s"
-                                                    data-wow-delay="0.3s">
-                                                    <span class="wow fadeInUp ml-1" data-wow-duration="0.8s"
-                                                        data-wow-delay="0.6s">Some Demonstrated Skills</span>
-                                                    <ul class="mt-3">
-                                                        <li><span>API</span></li>
-                                                        <li><span>Web Crawling/Scraping</span></li>
-                                                        <li><span>Documentation</span></li>
-                                                        <li><span>Data Mining and Analyzing</span></li>
-                                                        <li><span>Python</span></li>
-                                                        <li><span>Selenium</span></li>
-                                                        <li><span>Frameworks/Libraries</span></li>
-                                                        <li><span>Autmoation</span></li>
-                                                        <li><span>Scrapy</span></li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
+          <p class="lead">
+            Looking for an awesome and reliable webhosting? Try
+            <a href="http://www.dreamhost.com/r.cgi?287326|STYLESHOUT"
+              ><span>DreamHost</span></a
+            >. Get <span>$50 off</span> when you sign up with the promocode
+            <span>styleshout</span>.
+            <!-- Simply type	the promocode in the box labeled “Promo Code” when placing your order. -->
+          </p>
 
-                                <!-- Project Items -->
-                                <!-- Face project -->
-                                <div class="col-sm-12 mh-featured-item">
-                                    <div class="row">
-                                        <div class="col-sm-7 center-img">
-                                            <div class="mh-featured-project-img shadow-2 wow fadeInUp "
-                                                data-wow-duration="0.8s" data-wow-delay="0.2s">
-                                                <img src="assets/images/p-face.PNG" alt="" class="img-fluid">
-                                            </div>
-                                        </div>
-                                        <div class="col-sm-5">
-                                            <div class="mh-featured-project-content">
-                                                <h4 class="project-category wow fadeInUp" data-wow-duration="0.8s"
-                                                    data-wow-delay="0.4s">Web Development | UI Design</h4>
-                                                <h2 class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.5s">
-                                                    Face
-                                                    Recognition System
-                                                </h2>
-                                                <span class="wow fadeInUp" data-wow-duration="0.8s"
-                                                    data-wow-delay="0.6s">Design & Development</span>
-                                                <p class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.7s">
-                                                    Web
-                                                    application that receives an image URL as input from user, detects
-                                                    the
-                                                    face or faces in the image, by using a special API, then display the
-                                                    image with a box around the detected faces. I followed some best
-                                                    practices, especially in Security, such as storing the passwords as
-                                                    hashes (not in plain text) in the database. I, then, hosted the
-                                                    application in Heroku. Also, the system keeps track of scores, which
-                                                    increments every time a user submitter a URL.</p>
-                                                <a href="https://brain-front-app.herokuapp.com/"
-                                                    class="btn btn-fill wow fadeInUp" data-wow-duration="0.8s"
-                                                    data-wow-delay="0.7s" target="_blank">Check Application</a>
-                                                <div class="mh-about-tag wow fadeInUp" data-wow-duration="0.8s"
-                                                    data-wow-delay="0.3s">
-                                                    <span class="wow fadeInUp ml-1" data-wow-duration="0.8s"
-                                                        data-wow-delay="0.6s">Some Demonstrated Skills</span>
-                                                    <ul class="mt-3">
-                                                        <li><span>API</span></li>
-                                                        <li><span>Database</span></li>
-                                                        <li><span>UI Design</span></li>
-                                                        <li><span>React</span></li>
-                                                        <li><span>Frameworks/Libraries</span></li>
-                                                        <li><span>NodeJS</span></li>
-                                                        <li><span>PostgreSQL</span></li>
-                                                        <li><span>JavaScript/TypeScript</span></li>
-                                                        <li><span>Express</span></li>
-                                                        <li><span>Heroku</span></li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
+          <div class="action">
+            <a
+              class="button button-primary large"
+              href="http://www.dreamhost.com/r.cgi?287326|STYLESHOUT"
+              >Sign Up Now</a
+            >
+          </div>
+        </div>
+      </div>
+      <!-- /cta-content -->
+    </section>
+    <!-- /cta -->
 
-                                <!-- Project Items -->
-                                <!-- Robots project -->
-                                <div class="col-sm-12 mh-featured-item">
-                                    <div class="row">
-                                        <div class="col-sm-7 center-img">
-                                            <div class="mh-featured-project-img shadow-2 wow fadeInUp "
-                                                data-wow-duration="0.8s" data-wow-delay="0.2s">
-                                                <img src="assets/images/robot.jpg" alt="" class="img-fluid">
-                                            </div>
-                                        </div>
-                                        <div class="col-sm-5">
-                                            <div class="mh-featured-project-content">
-                                                <h4 class="project-category wow fadeInUp" data-wow-duration="0.8s"
-                                                    data-wow-delay="0.4s">Web Development | UI Design</h4>
-                                                <h2 class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.5s">
-                                                    Robots Discussion Application
-                                                </h2>
-                                                <span class="wow fadeInUp" data-wow-duration="0.8s"
-                                                    data-wow-delay="0.6s">Design & Development</span>
-                                                <p class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.7s">A
-                                                    fun web
-                                                    discussion application, built using Meteor and React frameworks,
-                                                    that
-                                                    allow users to add new discussions or comment on existing ones. In
-                                                    this
-                                                    application, I took advantges of some of the Meteor supported
-                                                    features,
-                                                    such as Methods and built-in account management. Alongside the
-                                                    packages
-                                                    that are provided by Meteor, I used Robohash API, which provides a
-                                                    unique profile photo for any queried text. I,
-                                                    also, used Bootstrap and ReactStrap for styling. The application is
-                                                    hosted on
-                                                    Meteor Galaxy Cloud Platform.</p>
-                                                <a href="http://robodiscussion.meteorapp.com/"
-                                                    class="btn btn-fill wow fadeInUp" data-wow-duration="0.8s"
-                                                    data-wow-delay="0.7s" target="_blank">Check Application</a>
-                                                <div class="mh-about-tag wow fadeInUp" data-wow-duration="0.8s"
-                                                    data-wow-delay="0.3s">
-                                                    <span class="wow fadeInUp ml-1" data-wow-duration="0.8s"
-                                                        data-wow-delay="0.6s">Some Demonstrated Skills</span>
-                                                    <ul class="mt-3">
-                                                        <li><span>API</span></li>
-                                                        <li><span>Database</span></li>
-                                                        <li><span>UI Design</span></li>
-                                                        <li><span>React</span></li>
-                                                        <li><span>Bootstrap</span></li>
-                                                        <li><span>Meteor</span></li>
-                                                        <li><span>Frameworks/Libraries</span></li>
-                                                        <li><span>NodeJS</span></li>
-                                                        <li><span>MongoDB</span></li>
-                                                        <li><span>JavaScript</span></li>
-                                                        <li><span>Meteor Galaxy</span></li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
+    <!-- contact
+   ================================================== -->
+    <section id="contact">
+      <!-- /section-intro -->
 
-                                <!-- Project Items -->
-                                <!-- IPs project -->
-                                <div class="col-sm-12 mh-featured-item">
-                                    <div class="row">
-                                        <div class="col-sm-7 center-img">
-                                            <div class="mh-featured-project-img shadow-2 wow fadeInUp"
-                                                data-wow-duration="0.8s" data-wow-delay="0.2s">
-                                                <img src="assets/images/iplookup.jpg" alt="" class="img-fluid">
-                                            </div>
-                                        </div>
-                                        <div class="col-sm-5">
-                                            <div class="mh-featured-project-content">
-                                                <h4 class="project-category wow fadeInUp" data-wow-duration="0.8s"
-                                                    data-wow-delay="0.4s">API | Automation</h4>
-                                                <h2 class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.5s">
-                                                    IPs/Hashes reputation lookup
-                                                </h2>
-                                                <span class="wow fadeInUp" data-wow-duration="0.8s"
-                                                    data-wow-delay="0.6s">Automation of repeated tasks</span>
-                                                <p class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.7s">
-                                                    An automation script written in Python that qureies VirusTotal API
-                                                    with provided IPs/Hashes to get the reputation of the IP or the
-                                                    hash. The output of the script is an excel file contains a detailed
-                                                    report.</p>
-                                                <a href="assets/documents/Hash Tool Report.pdf"
-                                                    class="btn btn-fill wow fadeInUp" data-wow-duration="0.8s"
-                                                    data-wow-delay="0.7s" target="_blank">Check specifications report</a>
-                                                <div class="mh-about-tag wow fadeInUp" data-wow-duration="0.8s"
-                                                    data-wow-delay="0.3s">
-                                                    <span class="wow fadeInUp ml-1" data-wow-duration="0.8s"
-                                                        data-wow-delay="0.6s">Some Demonstrated Skills</span>
-                                                    <ul class="mt-3">
-                                                        <li><span>Python</span></li>
-                                                        <li><span>API</span></li>
-                                                        <li><span>Automation</span></li>
-                                                        <li><span>Creativity</span></li>
-                                                        <li><span>Problem Solving</span></li>
-                                                        <li><span>Analyzing</span></li>
-                                                        <li><span>Reporting</span></li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div> <!-- End: .row -->
-                </div>
-            </div>
-        </section>
+      <div class="row contact-info">
+        <div class="col-four tab-full collapse">
+          <div class="icon">
+            <i class="icon-mail"></i>
+          </div>
 
-        <!--     
-        ===================
-        TESTIMONIALS
-        ===================
-         -->
-        <section class="mh-testimonial" id="mh-testimonial">
-            <div class="home-v-img">
-                <div class="container">
-                    <div class="row section-separator">
-                        <div class="col-sm-12 section-title wow fadeInUp" data-wow-duration="0.8s"
-                            data-wow-delay="0.2s">
-                            <h3>Testimonials</h3>
-                        </div>
-                        <div class="col-sm-12 wow fadeInUp" id="mh-client-review" data-wow-duration="0.8s"
-                            data-wow-delay="0.3s">
-                            <a href="https://www.linkedin.com/in/yasser-mahgoub-23186945/" target="_blank">
-                                <div class="each-client-item">
-                                    <div class="mh-client-item dark-bg black-shadow-1">
-                                        <img src="assets/images/1622783726617.jpg" alt="" class="img-fluid">
-                                        <p>In conclusion, I can say that Mr. Mayaba has the grades, maturity and ability
-                                            to
-                                            follow any career path he wants.</p>
-                                        <h4>Yasser Mahgoub</h4>
-                                        <span>Senior Lecturer at University of Texas at Tyler</span>
-                                    </div>
-                                </div>
-                            </a>
-                            <a href="https://www.linkedin.com/in/mohamed-almatrafi-32b18286/" target="_blank">
-                                <div class="each-client-item">
-                                    <div class="mh-client-item dark-bg black-shadow-1">
-                                        <img src="assets/images/leader.jpg" alt="" class="img-fluid">
-                                        <p>Hi All Abderrahim is hard worker, disciplined, supportive, proactive,
-                                            collaborative and persistent. Also I considered as one of the team keys
-                                            because
-                                            his programming skills helped us a lot to enhance a team capabilities and
-                                            save
-                                            our time. I really happy to have him in our team. Thanks</p>
-                                        <h4>Mohamed Almatrafi</h4>
-                                        <span>SOC Team Leader</span>
-                                    </div>
-                                </div>
-                            </a>
-                            <a href="https://www.linkedin.com/in/mhmdafifi/" target="_blank">
-                                <div class="each-client-item">
-                                    <div class="mh-client-item dark-bg black-shadow-1">
-                                        <img src="assets/images/afifi.jpg" alt="" class="img-fluid">
-                                        <p>Abderrahim is a very nice person to work with.he is funny, well-educated,
-                                            technology and work oriented and skills ritch.</p>
-                                        <h4>Mohamed Afifi Abdelrahim</h4>
-                                        <span>Senior Security Consultant at Help AG</span>
-                                    </div>
-                                </div>
-                            </a>
-                            <a href="https://www.linkedin.com/in/swaroop-punathil-49244b65/" target="_blank">
-                                <div class="each-client-item">
-                                    <div class="mh-client-item dark-bg black-shadow-1">
-                                        <img src="assets/images/swaroop.jpg" alt="" class="img-fluid">
-                                        <p>Abderrahim is proactive, result oriented, responsible and technically sound
-                                            employee and he is always ready to put all his energy and time to get the
-                                            job
-                                            done. He has an exceptional troubleshooting and analytic skill in
-                                            Information
-                                            technologies. Abderrahim is a great asset to any company.</p>
-                                        <h4>Swaroop Punathil</h4>
-                                        <span>Associate Consultant at Wipro Limited</span>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            </div>
-        </section>
+          <h5>Email Me At</h5>
 
-        <!--
-        ===================
-           FOOTER 1
-        ===================
-        -->
-        <footer class="mh-footer" id="mh-contact">
-            <div class="map-image image-bg">
-                <div class="container">
-                    <div class="row section-separator">
-                        <div class="col-sm-12 section-title wow fadeInUp" data-wow-duration="0.8s"
-                            data-wow-delay="0.2s">
-                            <h3>Contact Me</h3>
-                        </div>
-                        <div class="col-sm-12 mh-footer-address">
-                            <div class="row">
-                                <div class="col-sm-12 col-md-6">
-                                    <a href="mailto:ammayaba@gmail.com">
-                                        <div class="mh-address-footer-item dark-bg shadow-1 wow fadeInUp"
-                                            data-wow-duration="0.8s" data-wow-delay="0.5s">
-                                            <div class="each-icon">
-                                                <i class="fa fa-envelope-o"></i>
-                                            </div>
+          <p>ammayaba@gmail.com</p>
+        </div>
 
-                                            <div class="each-info">
-                                                <h4>Email</h4>
-                                                <a href="mailto:ammayaba@gmail.com">ammayaba@gmail.com</a>
-                                            </div>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col-sm-12 col-md-6">
-                                    <a href="callto:+15144767970">
-                                        <div class="mh-address-footer-item dark-bg shadow-1 wow fadeInUp"
-                                            data-wow-duration="0.8s" data-wow-delay="0.7s">
-                                            <div class="each-icon">
-                                                <i class="fa fa-phone"></i>
-                                            </div>
-                                            <div class="each-info">
-                                                <h4>Phone</h4>
-                                                <a href="callto:+15144767970">+1 (514) 476-7970</a>
-                                            </div>
-                                        </div>
-                                    </a>
-                                </div>
-                                <!-- <div class="col-sm-12 col-md-4">
-                                    <a href="callto:+966541144429">
-                                        <div class="mh-address-footer-item dark-bg shadow-1 wow fadeInUp"
-                                            data-wow-duration="0.8s" data-wow-delay="0.7s">
-                                            <div class="each-icon">
-                                                <i class="fa fa-phone"></i>
-                                            </div>
-                                            <div class="each-info">
-                                                <h4>Phone</h4>
-                                                <a href="callto:+966541144429">+966 541144429</a>
-                                            </div>
-                                        </div>
-                                    </a>
-                                </div> -->
-                            </div>
-                        </div>
-                        <!-- <div class="col-sm-12 col-md-6 wow fadeInUp mx-auto" data-wow-duration="0.8s" data-wow-delay="0.3s">
-                        <form id="contactForm" class="single-form quate-form wow fadeInUp" data-toggle="validator">
-                            <div id="msgSubmit" class="h3 text-center hidden"></div>
-                            <div class="row">
-                                <div class="col-md-6 col-sm-12">
-                                    <input name="name" class="contact-name form-control" id="name" type="text"
-                                        placeholder="First Name" required>
-                                </div>
-                                <div class="col-md-6 col-sm-12">
-                                    <input name="name" class="contact-email form-control" id="L_name" type="text"
-                                        placeholder="Last Name" required>
-                                </div>
-                                <div class="col-sm-12">
-                                    <input name="name" class="contact-subject form-control" id="email" type="email"
-                                        placeholder="Your Email" required>
-                                </div>
-                                <div class="col-sm-12">
-                                    <textarea class="contact-message" id="message" rows="6" placeholder="Your Message"
-                                        required></textarea>
-                                </div>
-                                <div class="btn-form col-sm-12">
-                                    <button type="submit" class="btn btn-fill btn-block" id="form-submit">Send
-                                        Message</button>
-                                </div>
-                            </div>
-                        </form>
-                    </div> -->
-                        <div class="col-sm-12 mh-copyright wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.3s">
-                            <div class="row">
-                                <div class="col-sm-6">
-                                    <div class="text-left text-xs-center">
-                                        <p class="footer-heart">
-                                            Made with <g-emoji class="g-emoji" alias="heart"
-                                                fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/2764.png">
-                                                <img class="emoji" alt="heart" height="20" width="20"
-                                                    src="https://github.githubassets.com/images/icons/emoji/unicode/2764.png">
-                                            </g-emoji> by <a href="https://github.com/mayaba">Rahim.</a>
-                                        </p>
-                                    </div>
-                                </div>
-                                <div class="col-sm-6">
-                                    <ul class="social-icon">
-                                        <li><a href="https://github.com/mayaba" target="_blank"><i
-                                                    class="fa fa-github"></i></a>
-                                        </li>
-                                        <li><a href="https://www.linkedin.com/in/mayabaa/" target="_blank"><i
-                                                    class="fa fa-linkedin"></i></a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </footer>
+        <div class="col-four tab-full">
+          <div class="icon">
+            <i class="icon-phone"></i>
+          </div>
 
-        <!-- back to top button -->
-        <!-- Back to top button -->
-        <button type="button" class="btn  btn-floating btn-lg" id="btn-back-to-top">
-            <i class="fa fa-arrow-up"></i>
-        </button>
+          <h5>Call Me At</h5>
+          <a href="callto:+15144767970">
+            <p class="call">Mobile: (514) 476-7970</p></a
+          >
+        </div>
 
-        <!--
-    ==============
-    * JS Files *
-    ==============
-    -->
+        <div class="col-four tab-full">
+          <div class="icon">
+            <i class="icon-link"></i>
+          </div>
 
-        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+          <a href="https://www.linkedin.com/in/mayabaa/" target="_blank">
+            <h5>Connect with me in LinkedIn</h5>
 
-        <!-- jQuery -->
-        <script src="assets/plugins/js/jquery.min.js"></script>
-        <!-- popper -->
-        <script src="assets/plugins/js/popper.min.js"></script>
-        <!-- bootstrap -->
-        <script src="assets/plugins/js/bootstrap.min.js"></script>
-        <!-- owl carousel -->
-        <script src="assets/plugins/js/owl.carousel.js"></script>
-        <!-- validator -->
-        <script src="assets/plugins/js/validator.min.js"></script>
-        <!-- wow -->
-        <script src="assets/plugins/js/wow.min.js"></script>
-        <!-- mixin js-->
-        <script src="assets/plugins/js/jquery.mixitup.min.js"></script>
-        <!-- circle progress-->
-        <script src="assets/plugins/js/circle-progress.js"></script>
-        <!-- jquery nav -->
-        <script src="assets/plugins/js/jquery.nav.js"></script>
-        <!-- Fancybox js-->
-        <script src="assets/plugins/js/jquery.fancybox.min.js"></script>
-        <!-- isotope js-->
-        <script src="assets/plugins/js/isotope.pkgd.js"></script>
-        <script src="assets/plugins/js/packery-mode.pkgd.js"></script>
-        <!-- Custom Scripts-->
-        <script src="assets/js/custom-scripts.js"></script>
-        <!-- Careers typing effects -->
-        <script src="assets/js/typed-effect.js"></script>
-        <script src="assets/plugins/js/typed.js"></script>
+            <p class="call">mayabaa</p></a
+          >
+        </div>
+      </div>
+      <!-- /contact-info -->
+    </section>
+    <!-- /contact -->
 
-    </body>
+    <!-- footer
+   ================================================== -->
 
+    <footer>
+      <div class="row">
+        <div class="col-six tab-full pull-right social">
+          <ul class="footer-social">
+            <li>
+              <a href="https://www.linkedin.com/in/mayabaa/" target="_blank"
+                ><i class="fa fa-linkedin"></i
+              ></a>
+            </li>
+            <li>
+              <a href="https://github.com/mayaba" target="_blank"
+                ><i class="fa fa-github"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="col-six tab-full">
+          <div class="copyright">
+            <span>© Copyright Kards 2016.</span>
+            <span
+              >Design by
+              <a href="http://www.styleshout.com/">styleshout</a></span
+            >
+          </div>
+        </div>
+
+        <div id="go-top">
+          <a class="smoothscroll" title="Back to Top" href="#top"
+            ><i class="fa fa-long-arrow-up"></i
+          ></a>
+        </div>
+      </div>
+      <!-- /row -->
+    </footer>
+
+    <div id="preloader">
+      <div id="loader"></div>
+    </div>
+
+    <!-- Java Script
+   ================================================== -->
+    <script src="js/jquery-2.1.3.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+  </body>
 </html>

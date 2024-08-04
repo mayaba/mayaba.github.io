@@ -1,11 +1,15 @@
 {
-  "name": "minfo-resume",
+  "name": "rahim-resume",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "vite",
-    "watch": "tailwindcss -i ./src/tailwind.css -o ./assets/css/style.min.css --watch"
+    "watch": "tailwindcss -i ./src/tailwind.css -o ./assets/css/style.min.css --watch",
+    "build:css": "tailwindcss -i ./src/tailwind.css -o ./assets/css/style.min.css",
+    "build": "vite build",
+    "predeploy": "npm run build:css && npm run build",
+    "deploy": "git add . && git commit -m 'Deploy to GitHub Pages' && git push origin main"
   },
   "keywords": [],
   "author": "",

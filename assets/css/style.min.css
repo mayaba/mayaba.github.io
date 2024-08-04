@@ -27,7 +27,7 @@ Support	      :	    themearray@gmail.com
 [1. Tailwind's Base styles]
 ------------------------------------------------------------------*/
 
-/*! tailwindcss v3.4.4 | MIT License | https://tailwindcss.com*/
+/*! tailwindcss v3.4.7 | MIT License | https://tailwindcss.com*/
 
 /*
 1. Prevent padding and border from affecting element width. (https://github.com/mozdevs/cssremedy/issues/4)
@@ -1651,11 +1651,6 @@ html.dark input:-webkit-autofill,
   padding: 1rem;
 }
 
-.px-2 {
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
-}
-
 .px-2\.5 {
   padding-left: 0.625rem;
   padding-right: 0.625rem;
@@ -1691,11 +1686,6 @@ html.dark input:-webkit-autofill,
   padding-right: 0.4rem;
 }
 
-.py-1 {
-  padding-top: 0.25rem;
-  padding-bottom: 0.25rem;
-}
-
 .py-1\.5 {
   padding-top: 0.375rem;
   padding-bottom: 0.375rem;
@@ -1704,11 +1694,6 @@ html.dark input:-webkit-autofill,
 .py-2 {
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
-}
-
-.py-3 {
-  padding-top: 0.75rem;
-  padding-bottom: 0.75rem;
 }
 
 .py-3\.5 {
@@ -2011,7 +1996,7 @@ html.dark input:-webkit-autofill,
 .backdrop-blur-md {
   --tw-backdrop-blur: blur(12px);
   -webkit-backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
-          backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
+  backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
 }
 
 .transition {
@@ -3403,10 +3388,6 @@ html.dark .portfolio_wrapper .info span {
     margin-top: 1.5rem;
   }
 
-  .lg\:gap-7 {
-    gap: 1.75rem;
-  }
-
   .lg\:gap-7\.5 {
     gap: 1.875rem;
   }
@@ -3502,11 +3483,6 @@ html.dark .portfolio_wrapper .info span {
 
   .xl\:\*\:ml-auto > * {
     margin-left: auto;
-  }
-
-  .xl\:\*\:py-3 > * {
-    padding-top: 0.75rem;
-    padding-bottom: 0.75rem;
   }
 
   .xl\:\*\:py-3\.5 > * {
